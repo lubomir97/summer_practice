@@ -1,0 +1,18 @@
+﻿<Window x:Class="LoginForm_Demo.Views.ChangeLogon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginForm_Demo.Views"
+        mc:Ignorable="d"
+        Title="ChangeLogon" Height="300" Width="400">
+    <Grid>
+        <Label Content="Please, choose the Log In mode" HorizontalAlignment="Center" Margin="96,31,102,0" VerticalAlignment="Top" Width="194"/>
+        <RadioButton Content="Transit mode" HorizontalAlignment="Left" Margin="53,92,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="standart mode" IsChecked="True" HorizontalAlignment="Left" Margin="233,92,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Number mode" HorizontalAlignment="Left" Margin="53,159,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="SMS mode" IsEnabled="False" HorizontalAlignment="Left" Margin="233,159,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Apply" Content="Apply" HorizontalAlignment="Left" Margin="150,225,0,0" VerticalAlignment="Top" Width="100" Background="#FF15E400"/>
+        <Button x:Name="Cancel" Click="Cancel_Click" Content="Cancel" HorizontalAlignment="Left" Margin="282,225,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="LoginForm_Demo.Views.AdminPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LoginForm_Demo.Views"
+        mc:Ignorable="d"
+        Title="AdminPage" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Height="350" Width="400">
+    <Grid>
+        <Button x:Name="exit_adm" Click="exit_adm_Click" Content="Log out" HorizontalAlignment="Left" Margin="307,288,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
